@@ -15,7 +15,7 @@ public class SimpleController {
 
     @GetMapping(value = "/s2i-sample-get")
     public String get() {
-        return "s2i controller get working";
+        return "s2i controller get working...\n";
     }
 
 }
